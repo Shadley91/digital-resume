@@ -1,0 +1,57 @@
+header {
+  background-color: rgb(95, 184, 214);
+  color: black;
+  border-style: solid;
+  border-width: 3px;
+}
+
+nav {
+  font-size: large;
+  border-style: solid;
+  border-width: 3px;
+  word-spacing: 12.9rem;
+  background-color: rgb(95, 184, 214);
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.section {
+  background-color: azure;
+  margin: 10px;
+  padding: 10px;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5 rem;
+  grid-template-rows: 1f;
+}
+
+h2 {
+  font-family: lucida sans;
+}
+
+h1 {
+  font-weight: bolder;
+  font-family: franklin gothic medium;
+}
+
+.flex-item {
+  background-color: azure;
+  padding: 10px;
+}
+
+.flex-container {
+  background-color: azure;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+@media only screen and (max-width: 300px) {
+  body {
+    background-color: aquamarine;
+  }
+}
